@@ -1,0 +1,8 @@
+plugin-reloaded: '%prefix%CosmicShot has been successfully &3&nreloaded!'
+
+command-reload-usage: '%prefix%&4Usage: &c/cosmicshot &freload'
+
+no-permission: '%prefix%You must have the permission &3&n%permission%&7 to execute this command.'
+banned-region: '%prefix%You cannot use &c%weapon%&7 in &c%region%&7!'
+whitelisted-region: '%prefix%You can only use &c%weapon%&7 in &c%region%&7!'
+banned-effect: '%prefix%You cannot use &c%weapon%&7 while &c%effect%&7 is active!'

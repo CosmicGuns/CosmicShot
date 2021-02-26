@@ -1,0 +1,63 @@
+# CosmicShot v.1.0.0-BETA
+# Created by Velinquish <3
+
+# What will appear in front of every message sent by the plugin
+plugin-prefix: '&4&lCosmicShot &8» &7'
+
+# Main command for CosmicShot
+main-command: 'cosmicshot'
+# Plugin aliases - alternatives to /cosmicshot
+plugin-aliases:
+    - 'cshot'
+    - 'cosmics'
+    
+# Permission for configuring {project.artifactId}. The %action% placeholder will be replaced with the following valid actions:
+# - reload
+permission: 'cosmicshot.%action%'
+
+# The default settings for each gun
+Default:
+    # Regions where CrackShot weapons cannot operate unless they override it
+    Banned_Regions:
+        - space
+        - shuttle
+        - spawn
+
+Guns:
+    Jetpack:
+        # Whether or not every gun that contains the name will assume these properties
+        Contains_Name: true
+        Banned_Regions:
+            - shuttle
+            - spawn
+        Banned_Effects:
+            - LEVITATION
+            - SLOW
+        # Whether the list of regions the gun is not allowed in becomes a list of the ONLY regions the gun is ALLOWED in
+        Region_Whitelist: false
+    SShotgunTier:
+        Contains_Name: true
+        Banned_Regions:
+            - shuttle
+            - spawn
+    SSniperTier:
+        Contains_Name: true
+        Banned_Regions:
+            - shuttle
+            - spawn
+    SAssaultTier:
+        Contains_Name: true
+        Banned_Regions:
+            - shuttle
+            - spawn
+    SCarbineTier:
+        Contains_Name: true
+        Banned_Regions:
+            - shuttle
+            - spawn
+        
+
+# Enable debug mode
+debug: true
+# Do not touch this unless you know what you are doing!
+config-version: 1

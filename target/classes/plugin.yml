@@ -1,0 +1,5 @@
+name: CosmicShot
+main: net.velinquish.cosmicshot.CosmicShot
+version: 1.0.0-BETA
+author: Velinquish
+softdepend: [WorldGuard]
